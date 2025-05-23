@@ -14,15 +14,12 @@ To explore and evaluate how different prompt patterns influence the quality, rel
 **Description:**
 
 - Review existing prompt engineering techniques such as direct questions, contextual prompts, role-based prompts, step-by-step instructions, and scenario-based prompts.
-
 - Categorize prompt types (e.g., open-ended, specific, multi-turn, chained prompts).
-
 - Analyze how prompts’ specificity, length, and style affect the AI’s response.
 
 **Data Collection:**
 
 - Collect sample prompts from literature and user experiences.
-
 - Design controlled experiments with varying prompt styles to generate content.
 
 **Expected Outcome:** A clear understanding of which prompt strategies yield more coherent, detailed, and contextually appropriate content.
@@ -32,89 +29,92 @@ To explore and evaluate how different prompt patterns influence the quality, rel
 
 **Description:**
 
-- Select multiple content types including:
+**Select multiple content types including:**
 
 - Reports: Structured documents presenting data analysis and findings.
-
 - Articles: Informative or opinion pieces designed for broader audiences.
 
-**Case Studies:** Detailed examinations of particular instances or examples.
+**Case Studies:** Detailed examinations of particular instances or examples.For each content type, define the typical 
+structure, tone, and expected output quality. Align prompt design to suit the specific requirements of each content type.
 
-For each content type, define the typical structure, tone, and expected output quality.
+**Data Collection:**
 
-Align prompt design to suit the specific requirements of each content type.
+- Generate AI content using the same prompt strategy adapted to different content types.
 
-Data Collection:
+- Observe differences in AI’s ability to adapt to format and style.
 
-Generate AI content using the same prompt strategy adapted to different content types.
-
-Observe differences in AI’s ability to adapt to format and style.
-
-Expected Outcome:
+**Expected Outcome:**
 
 Insights on which prompt designs work best for specific content types.
 
 ### 3. Prompt Design and Execution
-Objective: Create, test, and refine prompts to maximize AI content quality.
+**Objective:** Create, test, and refine prompts to maximize AI content quality.
 
-Description:
+**Description:**
 
-Develop detailed prompt templates incorporating context, explicit instructions, and expected content structure.
+- Develop detailed prompt templates incorporating context, explicit instructions, and expected content structure.
+- Use iterative prompt refinement based on AI output quality feedback.
+- Test prompts across different topics and complexity levels.
 
-Use iterative prompt refinement based on AI output quality feedback.
+**Implement prompt patterns like:**
 
-Test prompts across different topics and complexity levels.
+**Direct Instruction:** “Write a report summarizing…”
 
-Implement prompt patterns like:
+**Role-based:** “Act as an expert analyst and draft…”
 
-Direct Instruction: “Write a report summarizing…”
-
-Role-based: “Act as an expert analyst and draft…”
-
-Stepwise: “First list key points, then expand…”
+**Stepwise:** “First list key points, then expand…”
 
 Execute prompts using an AI language model, collecting outputs for evaluation.
 
-Data Collection:
+**Data Collection:**
 
-Store all generated content and associated prompts.
+- Store all generated content and associated prompts.
+- Note prompt variations and AI behavior changes.
 
-Note prompt variations and AI behavior changes.
-
-Expected Outcome:
+**Expected Outcome:**
 
 Well-defined prompt templates that consistently produce high-quality content.
 
 ### 4. Output Review Criteria
-Objective: Establish robust criteria to evaluate the quality of AI-generated content.
+**Objective:** Establish robust criteria to evaluate the quality of AI-generated content.
 
-Description:
+**Description:**
 
-Define quantitative and qualitative metrics such as:
+- Define quantitative and qualitative metrics such as:
 
-Relevance: How well content matches the prompt intent.
+- Relevance: How well content matches the prompt intent.
 
-Coherence and Flow: Logical structure and readability.
+**Coherence and Flow:** Logical structure and readability.
 
-Accuracy and Detail: Correctness of facts and depth of information.
+**Accuracy and Detail:** Correctness of facts and depth of information.
 
-Tone and Style: Appropriateness to content type and audience.
+**Tone and Style:** Appropriateness to content type and audience.
 
-Originality: Uniqueness and creativity of the content.
+**Originality:** Uniqueness and creativity of the content.
 
-Use human reviewers and automated tools (like readability scores) for evaluation.
 
-Compare outputs generated from different prompt strategies and content types.
+**Data Collection:**
 
-Data Collection:
+- Gather reviewer ratings and comments.
 
-Gather reviewer ratings and comments.
+- Compile performance scores for comparative analysis.
 
-Compile performance scores for comparative analysis.
-
-Expected Outcome:
+**Expected Outcome:**
 
 A scoring system that identifies the best-performing prompt patterns for each content type.
+
+### Deliverables
+**Prompt Strategy Catalog:** A documented list of effective prompt types and strategies categorized by content type and use case.
+
+**Content Framework Templates:** Detailed templates outlining the structure and key elements for reports, articles, and case studies, linked with corresponding prompt patterns.
+
+**Prompt Library:** A collection of tested and optimized prompt examples for generating high-quality content across different formats.
+
+**Evaluation Rubric:** A comprehensive set of criteria and scoring guidelines for assessing AI-generated content quality and relevance.
+
+**Generated Content Samples:** A curated set of sample outputs (reports, articles, case studies) created using the prompt patterns, showcasing the best practices and variations.
+
+**Experiment Report:** A detailed report summarizing methodology, findings, analysis, and recommendations for future content creation using prompt patterns.
 
 
 ## Conclusion:
